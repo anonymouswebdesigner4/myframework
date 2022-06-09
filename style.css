@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Sacramento&display=swap');
+body {
+  margin: 20px auto;
+  font-family: 'Reenie Beanie';
+  background:darkolivegreen;
+  color:#000;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+}
+
+ 
+h2 {
+  font-weight: bold;
+  font-size: 4.5rem;
+  box-shadow: 75px 75px 125px rgba(33,33,33,.7);
+  transform: rotate(3deg);
+  text-decoration:none;
+  color:#000;
+  background:darkorange;
+  display:block;
+  height:4em;
+  width:9em;
+  padding:1em;
+  transition: transform .15s linear;
+  font-family: 'Reenie Beanie', cursive;
+  position: relative;
+  text-align: center;
+  margin:7cm 16cm 7cm 75cm;
+
+  
+}
+
+body div:nth-child(even) h2{
+  transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+body div:nth-child(3n) h2{
+  transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+body div:nth-child(5n) h2{
+  transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+body div h2:hover,body div h2:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+ h4{
+  font-size: 2cm;
+  margin-left: 2cm;
+  color: darkblue;
+
+ }
+
+p {
+  font-family: 'Reenie Beanie';
+  font-size: 3.5rem;
+  font-weight: normal;
+  font-size:1.5cm;
+  width:auto;
+  height:45%;
+  padding: 1cm;
+  margin-left: 2cm;
+  font-size:1.75cm;
+  font-weight:bold;
+  color:darkblue;
+}
+li {
+  background:sienna;
+  display:block;
+  border-radius:15px ;
+  width: 25%;
+  height:75%;
+  padding-left: 1cm;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+  margin-top: 4px;
+  margin-left: 1cm;
+  margin-bottom: 1cm;
+  outline: 1px solid #000;
+  font-size: 2rem;
+  font-size:1.5cm;
+  font-weight: bold;
+  
+}
+ul li:hover, ul li:focus{
+
+ transform: scale(1.25);
+ transition: transform .15s linear;
+}
+#id1, #id2,#id3,#pop,#piy,#pi,#ide,#ida,#idi {
+  height:15%;
+  width:50%;
+  background-image:linear-gradient(to right, rgba(255,184,28,1), rgba(255,0,0,0));
+}
+
+h1{
+font-weight: bold;
+font-size:3cm;
+text-align: center;
+color:darkblue;
+-webkit-text-stroke: 3px black;
+
+}
+
